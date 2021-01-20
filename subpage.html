@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mój pierwszy projekt</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="xexercise.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <a href="index.html">Homepage</a>
+        <a href="subpage.html">My excercises</a>
+      </nav>
+    </header>
+    <section class="article_section article_section--subpage">
+      <h1>Programming lessons</h1>
+      <article>
+        <h2>
+          This section is dedicated to describe my homework and excercises.
+        </h2>
+        <p class="paragraph">
+          This subpage will contain all my Frontend course related homework. It
+          will be divided into articles, each of them will be dedicated to
+          different week of learning. The first homework was to create homepage
+          project - so there it is!
+        </p>
+      </article>
+      <article class="article_n2">
+        <h2>First dom manipulation</h2>
+        <p>
+          Below this paragraph, I have placed an empty paragraph, just with class 'article_n2--js'. However, I
+          will use javascript in order to fill it in with some text.<br />
+          <b>Hope it works!</b>
+          <p class='article_n2--js'>
+              elo
+          </p>
+          <script>const artykul = document.querySelector('.article_n2');
+
+
+            console.log(artykul);</script>
+        </p>
+      </article>
+    </section>
+  </body>
+</html>
